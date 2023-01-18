@@ -1,0 +1,6 @@
+//@use "./../styles/variables/globals" as g;
+@use "globals" as g;
+
+.margin-with-width {
+  margin: 0 g.$margin-width;
+}

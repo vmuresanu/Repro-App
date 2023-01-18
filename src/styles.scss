@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+@import "./styles/variables/colors";
+@import "./styles/variables/globals";
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  background-color: $gray-01;
+  font-family: Montserrat, Helvetica, Arial, sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+}
